@@ -1,0 +1,101 @@
+ body {
+     font-family: Arial, sans-serif;
+     margin: 20px;
+     padding: 20px;
+     background-color: #f4f4f4;
+ }
+
+ body {
+     margin: 0;
+     font-family: Arial, sans-serif;
+ }
+
+ header {
+     text-align: center;
+     padding: 20px 10px;
+     background-color: #333;
+     color: #fff;
+ }
+
+ .name {
+     margin: 0;
+     color: rgba(0, 255, 85, 0.651);
+ }
+
+ p {
+     margin: 5px 0;
+ }
+
+ nav {
+     text-align: center;
+     padding: 10px;
+ }
+
+ nav a {
+     color: #fff;
+     text-decoration: none;
+     margin: 0 10px;
+ }
+.feature {
+    text-align: center;
+    padding: 20px;
+}
+.featureH2 {
+    margin-top: 0;
+}
+.featureUl {
+    list-style: none;
+    /* Remove bullet points */
+    padding: 0;
+}
+.featureli {
+    margin-bottom: 10px;
+    /* Add some spacing between list items */
+}
+.featureli strong {
+    display: inline-block;
+    /* Ensure strong tags are displayed inline */
+    width: 150px;
+    /* Adjust width as needed */
+    font-weight: bold;
+    /* Keep the strong text bold */
+}
+.imgs{
+    padding-right: 10px;
+   width: 30px;
+   height: 30px;
+}
+ .CTA {
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: #0066cc;
+     color: #fff;
+     text-decoration: none;
+     border-radius: 5px;
+     transition: background-color 0.3s ease;
+ }
+
+ .CTA:hover {
+     background-color: #004080;
+ }
+
+ section {
+     margin-top: 20px;
+     text-align: center;
+ }
+
+ .hero-image {
+     width: auto;
+     max-width: 800px;
+     /* Adjust the maximum width based on your needs */
+     height: 20%;
+     margin: 10px auto;
+     border-radius: 10px;
+     /* Optional: Add rounded corners to the image */
+ }
+
+ .hero-subheadline {
+     font-size: 1.5em;
+     color: #333;
+     margin-top: 20px;
+ }
